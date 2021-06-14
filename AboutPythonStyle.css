@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* outline: red solid 1px; */
+} 
+
+#container {
+    width: 970px;
+    background-color: #245076;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-bottom: 3px #183753 solid;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 350px;
+    height: auto;
+    padding-left: 15px;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+form {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444444;
+    padding: 13px 35px 13px 45px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #1f1f1f;
+    font-size: 6pt;
+}
+
+#search {
+    height: 35px;
+    text-align: center;
+    border-top: 2px #9a9a9a solid;
+    border-left: 2px #9a9a9a solid;
+    border-right: 2px #eeeeee solid;
+    border-bottom: 2px #eeeeee solid;
+    box-shadow: 2px 2px 3px #1f1f1f;
+}
+
+form button {
+    color: white;
+    background-color: #245076;
+    border-radius: 4px;
+    width: 38px;
+    height: 28px;
+    border-top: 2px #c0c0c0 solid;
+    border-left: 2px #c0c0c0 solid;
+    border-right: 2px #6c6c6c solid;
+    border-bottom: 2px #6c6c6c solid;
+    font-size: 12px;
+    margin-left: 7px;
+    box-shadow: 2px 2px 3px #1f1f1f;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_size {
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.normalLI {
+    color: #b9a307;
+    list-style-type: none;
+    text-decoration: underline;
+    display: inline-block;
+    text-align: right;
+}
+
+.pipe {
+    list-style-type: none;
+    display: inline-block;
+    text-align: right;
+}
+
+.largeLI {
+    color: #b9a307;
+    list-style-type: none;
+    text-decoration: underline;
+    display: inline-block;
+    text-align: right;
+}
+
+header #headerlist {
+    text-align: right;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    width: 990px;
+}
+
+#navbar a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#navbar ul {
+    margin-left: 95px;
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    margin-bottom: 10px;
+    padding: 10px 50px 10px 50px;
+    background-color: #447dad;
+    border: 1px #3c73a2 solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #111111;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+aside li a {
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+#asideMain {
+    display: flex;
+}
+
+#sideNavBar {
+    width: 150px;
+    text-align: center;
+    list-style: circle;
+    font-size: 11.5pt;
+    padding-left: 100px;
+    list-style-position: inside;
+}
+
+#topParagraph {
+    display: inline-block;
+    width: 600px;
+    text-align: center;
+    font-size: 10pt;
+    color: white;
+    margin-left: 50px;
+}
+
+.mainPhrases {
+    color: #d8bd3e;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: inline-block;
+    font-size: 14pt;
+    list-style: none;
+}
+
+.pythonZen {
+    color: white;
+    font-size: 14pt;
+}
+
+#sectionLeftArticle {
+    display: inline-block;
+    width: 400px;
+    margin-left: 70px;
+    padding-right: 30px;
+    margin-right: 30px;
+    list-style-position: inside;
+    border-top: 3px solid #73a7d5;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    vertical-align: top;
+}
+
+#sectionLeftArticle a {
+    color: #9abfe0;
+}
+
+.sectionLALinks {
+    text-align: left;
+    padding: 5px 0px 5px 0px;
+}
+
+#sectionRightArticle {
+    display: inline-block;
+    width: 400px;
+    list-style-position: inside;
+    border-top: 3px solid #73a7d5;
+    padding-top: 10px;
+    text-align: center;
+    padding-right: 30px;
+}
+
+#sectionRightArticle a {
+    color: #9abfe0;
+}
+
+#sectionRightArticle span {
+    color: #9abfe0;
+    font-size: 10pt;
+}
+
+.sectionRALinks {
+    text-align: left;
+    padding: 5px 0px 5px 0px;
+}
+
+#sectionLeftArticle h4 {
+    font-size: 13pt;
+}
+
+#sectionRightArticle h4 {
+    font-size: 13pt;
+}
+
+footer {
+    background-image: linear-gradient(#275278, #3677ae);
+    width: 970px;
+    height: 85px;
+    padding-right: 20px;
+}
+
+#footerList {
+    display: flex;
+    justify-content: center;
+    vertical-align: bottom;
+    margin-top: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    text-align: center;
+    color: #83b5e1;
+    list-style: square;
+    margin-top: 35px;
+    padding: 0px 20px 10px 20px;
+}
+
+footer p {
+    text-align: center;
+    vertical-align: bottom;
+    color: #83b5e1;
+}
